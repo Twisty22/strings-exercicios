@@ -1,1 +1,13 @@
 const minhaString = "Eu não sou supersticioso, mas sou um pouco ________.      ";
+console.log(minhaString.length)
+let novaString = minhaString.trim()
+console.log(novaString.length)
+novaString = novaString.replace("_", "s")
+novaString = novaString.replace("_", "t")
+novaString = novaString.replace("_", "i")
+novaString = novaString.replace("_", "c")
+novaString = novaString.replace("_", "i")
+novaString = novaString.replace("_", "o")
+novaString = novaString.replace("_", "s")
+novaString = novaString.replace("_", "o")
+console.log(novaString)
